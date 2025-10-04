@@ -6,7 +6,7 @@ def main():
 
     llm = ChatGoogleGenerativeAI(
         model="gemini-2.5-flash", 
-        google_api_key="AIzaSyASdtyNIG80nXd6iNEv-USnLaMxURQNx0k",
+        google_api_key="GEMINI_API_KEY", #replace with your actual API key
         temperature=0.7
     )
     
